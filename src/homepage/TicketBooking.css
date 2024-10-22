@@ -1,0 +1,100 @@
+.ticket-booking-form {
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 30px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+}
+
+.ticket-booking-form h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.ticket-booking-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.ticket-booking-form label {
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #555;
+}
+
+.ticket-booking-form input[type="text"],
+.ticket-booking-form input[type="email"],
+.ticket-booking-form input[type="tel"] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+  transition: border-color 0.3s ease;
+}
+
+.ticket-booking-form input[type="text"]:focus,
+.ticket-booking-form input[type="email"]:focus,
+.ticket-booking-form input[type="tel"]:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.ticket-booking-form .submit-button,
+.ticket-booking-form .back-button {
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.ticket-booking-form .submit-button {
+  background-color: #28a745;
+  color: white;
+  margin-top: 10px;
+}
+
+.ticket-booking-form .submit-button:hover {
+  background-color: #218838;
+}
+
+.ticket-booking-form .back-button {
+  background-color: #6c757d;
+  color: white;
+  margin-top: 10px;
+}
+
+.ticket-booking-form .back-button:hover {
+  background-color: #5a6268;
+}
+
+.ticket-booking-form div p {
+  font-size: 14px;
+  color: #666;
+  margin: 5px 0 0;
+}
+
+.ticket-booking-form div p::before {
+  content: '🎟️ ';
+}
+
+@media (max-width: 600px) {
+  .ticket-booking-form {
+    padding: 20px;
+    margin: 20px;
+  }
+
+  .ticket-booking-form h2 {
+    font-size: 20px;
+  }
+
+  .ticket-booking-form .submit-button,
+  .ticket-booking-form .back-button {
+    font-size: 14px;
+  }
+}

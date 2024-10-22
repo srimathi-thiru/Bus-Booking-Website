@@ -1,0 +1,110 @@
+
+body{
+  background-image: url('C:\Users\suhis\bus-booking-project\src\assets\Home1.png');
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat;
+}
+.container {
+  width: 350px;
+  margin: 80px auto; 
+  padding: 30px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+}
+.container:hover {
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+}
+.login-header {
+  font-size: 26px;
+  color: #333;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+.login-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.login-fields {
+  width: 100%;
+}
+.login-label {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 8px;
+  display: block;
+  text-align: left;
+}
+.login-input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 14px;
+  transition: border-color 0.3s ease;
+}
+.login-input:focus {
+  border-color: #007bff;
+  outline: none;
+}
+.login-error {
+  color: #e74c3c;
+  font-size: 14px;
+  margin-top: 10px;
+}
+.login-button {
+  width: 100%;
+  padding: 12px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  border-color: #004494;
+  margin-top: 10px;
+}
+
+.login-button:hover {
+  background-color: #0056b3;
+}
+
+.login-button:active {
+  background-color: #004494;
+  transform: scale(0.98);
+}
+
+.signup-text {
+  font-size: 14px;
+  color: #777;
+  margin-top: 20px;
+}
+
+.signup-button {
+  background-color: transparent;
+  color: #007bff;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px;
+  text-decoration: underline;
+  transition: color 0.3s ease;
+}
+
+.signup-button:hover {
+  color: #0056b3;
+}
+
+
+@media (max-width: 480px) {
+  .container {
+      width: 90%;
+      padding: 20px;
+  }
+}
+

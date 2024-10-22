@@ -1,0 +1,71 @@
+.Bus-container {
+    width: 100%;
+    max-width: 1200px; 
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 28px; 
+  }
+  
+  h3 {
+    color: #555;
+    margin-bottom: 20px; 
+    font-size: 22px; 
+  }
+  
+  .bus-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .bus-list li {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px; 
+    margin-bottom: 20px; 
+    padding: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .bus-list li:hover {
+    transform: scale(1.02);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  .bus-list p {
+    margin: 8px 0; 
+    font-size: 16px; 
+    color: #444;
+  }
+  
+  .bus-list strong {
+    font-weight: bold;
+    color: #333; 
+  }
+  
+  .button-view-seats {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px; 
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-transform: uppercase;
+    font-size: 14px; 
+  }
+  
+  .button-view-seats:hover {
+    background-color: #45a049;
+  }
+  

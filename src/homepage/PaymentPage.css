@@ -1,0 +1,116 @@
+.payment-page {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 30px;
+  background-color: #f8f9fa;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+}
+
+.payment-page h2 {
+  text-align: center;
+  color: #343a40;
+  margin-bottom: 25px;
+}
+
+.payment-success-message {
+  text-align: center;
+  padding: 20px;
+  background-color: #d4edda;
+  border: 1px solid #c3e6cb;
+  border-radius: 8px;
+  color: #155724;
+}
+
+.payment-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.form-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px; /* Increased gap between the fields */
+}
+
+.half-width {
+  flex: 1;
+}
+
+.payment-form label {
+  font-weight: bold;
+  color: #495057;
+}
+
+.payment-form input[type="text"],
+.payment-form input[type="password"] {
+  padding: 12px;
+  border: 1px solid #ced4da;
+  border-radius: 6px;
+  font-size: 14px;
+  transition: border-color 0.3s ease;
+}
+
+.payment-form input[type="text"]:focus,
+.payment-form input[type="password"]:focus {
+  border-color: #80bdff;
+  outline: none;
+}
+
+.error {
+  color: #e3342f;
+  font-size: 12px;
+}
+
+.pay-button,
+.back-button {
+  padding: 14px;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.pay-button {
+  background-color: #28a745;
+  color: white;
+}
+
+.pay-button:hover {
+  background-color: #218838;
+}
+
+.back-button {
+  background-color: #6c757d;
+  color: white;
+  margin-top: 10px;
+}
+
+.back-button:hover {
+  background-color: #5a6268;
+}
+
+@media (max-width: 600px) {
+  .payment-page {
+    padding: 20px;
+    margin: 20px;
+  }
+
+  .payment-form {
+    gap: 15px;
+  }
+
+  .form-row {
+    flex-direction: column;
+    gap: 20px; 
+  }
+}

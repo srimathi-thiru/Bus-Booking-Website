@@ -1,0 +1,664 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "username": "user1",
+      "email": "user1@example.com",
+      "password": "password123"
+    },
+    {
+      "id": "2",
+      "username": "user2",
+      "email": "user2@example.com",
+      "password": "password456"
+    },
+    {
+      "id": "3",
+      "username": "admin",
+      "email": "admin@example.com",
+      "password": "admin123"
+    },
+    {
+      "id": "3439",
+      "username": "user4",
+      "email": "user4@example.com",
+      "password": "123456"
+    },
+    {
+      "id": "056b",
+      "username": "Srimathi_thirunavukarasu",
+      "email": "user9@example.com",
+      "password": "12345"
+    },
+    {
+      "id": "ffdd",
+      "username": "Srimathi_thirunavukarasu",
+      "email": "727723eucs244@skcet.ac.in",
+      "password": "Srimathi@121"
+    }
+  ],
+  "bus": [
+    {
+      "busId": 1,
+      "pickupLocation": "Chennai",
+      "dropoffLocation": "Coimbatore",
+      "travelDuration": "8h 0m",
+      "seatsAvailable": 30,
+      "action": "View Seats",
+      "id": "e7e7"
+    },
+    {
+      "busId": 2,
+      "pickupLocation": "Chennai",
+      "dropoffLocation": "Madurai",
+      "travelDuration": "7h 30m",
+      "seatsAvailable": 25,
+      "action": "View Seats",
+      "id": "571b"
+    },
+    {
+      "busId": 3,
+      "pickupLocation": "Chennai",
+      "dropoffLocation": "Trichy",
+      "travelDuration": "5h 30m",
+      "seatsAvailable": 28,
+      "action": "View Seats",
+      "id": "e51e"
+    },
+    {
+      "busId": 4,
+      "pickupLocation": "Coimbatore",
+      "dropoffLocation": "Erode",
+      "travelDuration": "2h 30m",
+      "seatsAvailable": 20,
+      "action": "View Seats",
+      "id": "16a8"
+    },
+    {
+      "busId": 5,
+      "pickupLocation": "Madurai",
+      "dropoffLocation": "Rameswaram",
+      "travelDuration": "3h 30m",
+      "seatsAvailable": 24,
+      "action": "View Seats",
+      "id": "446e"
+    },
+    {
+      "busId": 6,
+      "pickupLocation": "Trichy",
+      "dropoffLocation": "Thanjavur",
+      "travelDuration": "1h 30m",
+      "seatsAvailable": 22,
+      "action": "View Seats",
+      "id": "365b"
+    },
+    {
+      "busId": 7,
+      "pickupLocation": "Salem",
+      "dropoffLocation": "Erode",
+      "travelDuration": "1h 0m",
+      "seatsAvailable": 26,
+      "action": "View Seats",
+      "id": "4654"
+    },
+    {
+      "busId": 8,
+      "pickupLocation": "Chennai",
+      "dropoffLocation": "Vellore",
+      "travelDuration": "2h 30m",
+      "seatsAvailable": 19,
+      "action": "View Seats",
+      "id": "e851"
+    },
+    {
+      "busId": 9,
+      "pickupLocation": "Madurai",
+      "dropoffLocation": "Tirunelveli",
+      "travelDuration": "3h 30m",
+      "seatsAvailable": 21,
+      "action": "View Seats",
+      "id": "ec24"
+    },
+    {
+      "busId": 10,
+      "pickupLocation": "Coimbatore",
+      "dropoffLocation": "Pollachi",
+      "travelDuration": "1h 0m",
+      "seatsAvailable": 30,
+      "action": "View Seats",
+      "id": "9570"
+    },
+    {
+      "busId": 11,
+      "pickupLocation": "Chennai",
+      "dropoffLocation": "Pondicherry",
+      "travelDuration": "3h 0m",
+      "seatsAvailable": 23,
+      "action": "View Seats",
+      "id": "3c43"
+    },
+    {
+      "busId": 12,
+      "pickupLocation": "Trichy",
+      "dropoffLocation": "Karur",
+      "travelDuration": "2h 0m",
+      "seatsAvailable": 18,
+      "action": "View Seats",
+      "id": "744f"
+    },
+    {
+      "busId": 13,
+      "pickupLocation": "Madurai",
+      "dropoffLocation": "Dindigul",
+      "travelDuration": "1h 45m",
+      "seatsAvailable": 27,
+      "action": "View Seats",
+      "id": "3f6d"
+    },
+    {
+      "busId": 14,
+      "pickupLocation": "Coimbatore",
+      "dropoffLocation": "Ooty",
+      "travelDuration": "3h 30m",
+      "seatsAvailable": 20,
+      "action": "View Seats",
+      "id": "22ba"
+    },
+    {
+      "busId": 15,
+      "pickupLocation": "Chennai",
+      "dropoffLocation": "Kanchipuram",
+      "travelDuration": "2h 0m",
+      "seatsAvailable": 25,
+      "action": "View Seats",
+      "id": "68f2"
+    },
+    {
+      "busId": 16,
+      "pickupLocation": "Madurai",
+      "dropoffLocation": "Kodaikanal",
+      "travelDuration": "4h 0m",
+      "seatsAvailable": 17,
+      "action": "View Seats",
+      "id": "9eaf"
+    },
+    {
+      "busId": 17,
+      "pickupLocation": "Tirunelveli",
+      "dropoffLocation": "Kanyakumari",
+      "travelDuration": "1h 30m",
+      "seatsAvailable": 31,
+      "action": "View Seats",
+      "id": "0718"
+    },
+    {
+      "busId": 18,
+      "pickupLocation": "Salem",
+      "dropoffLocation": "Hosur",
+      "travelDuration": "2h 45m",
+      "seatsAvailable": 29,
+      "action": "View Seats",
+      "id": "068e"
+    },
+    {
+      "busId": 19,
+      "pickupLocation": "Chennai",
+      "dropoffLocation": "Tiruvannamalai",
+      "travelDuration": "3h 45m",
+      "seatsAvailable": 16,
+      "action": "View Seats",
+      "id": "b2b0"
+    },
+    {
+      "busId": 20,
+      "pickupLocation": "Trichy",
+      "dropoffLocation": "Nagapattinam",
+      "travelDuration": "3h 15m",
+      "seatsAvailable": 20,
+      "action": "View Seats",
+      "id": "e7f6"
+    },
+    {
+      "busId": 21,
+      "pickupLocation": "Chennai",
+      "dropoffLocation": "Cuddalore",
+      "travelDuration": "3h 30m",
+      "seatsAvailable": 30,
+      "action": "View Seats",
+      "id": "4495"
+    },
+    {
+      "busId": 22,
+      "pickupLocation": "Coimbatore",
+      "dropoffLocation": "Tiruppur",
+      "travelDuration": "1h 30m",
+      "seatsAvailable": 40,
+      "action": "View Seats",
+      "id": "5e18"
+    },
+    {
+      "busId": 23,
+      "pickupLocation": "Chennai",
+      "dropoffLocation": "Chidambaram",
+      "travelDuration": "4h 0m",
+      "seatsAvailable": 40,
+      "action": "View Seats",
+      "id": "1aa4"
+    },
+    {
+      "busId": 24,
+      "pickupLocation": "Madurai",
+      "dropoffLocation": "Sivakasi",
+      "travelDuration": "2h 0m",
+      "seatsAvailable": 40,
+      "action": "View Seats",
+      "id": "38dd"
+    },
+    {
+      "busId": 25,
+      "pickupLocation": "Trichy",
+      "dropoffLocation": "Pudukottai",
+      "travelDuration": "1h 30m",
+      "seatsAvailable": 40,
+      "action": "View Seats",
+      "id": "7a65"
+    },
+    {
+      "busId": 26,
+      "pickupLocation": "Salem",
+      "dropoffLocation": "Namakkal",
+      "travelDuration": "1h 15m",
+      "seatsAvailable": 40,
+      "action": "View Seats",
+      "id": "bd33"
+    },
+    {
+      "busId": 27,
+      "pickupLocation": "Chennai",
+      "dropoffLocation": "Tirupati",
+      "travelDuration": "3h 0m",
+      "seatsAvailable": 40,
+      "action": "View Seats",
+      "id": "78ce"
+    },
+    {
+      "busId": 28,
+      "pickupLocation": "Madurai",
+      "dropoffLocation": "Theni",
+      "travelDuration": "1h 30m",
+      "seatsAvailable": 40,
+      "action": "View Seats",
+      "id": "2d1b"
+    },
+    {
+      "busId": 29,
+      "pickupLocation": "Coimbatore",
+      "dropoffLocation": "Mettupalayam",
+      "travelDuration": "1h 0m",
+      "seatsAvailable": 40,
+      "action": "View Seats",
+      "id": "ddfe"
+    },
+    {
+      "busId": 30,
+      "pickupLocation": "Chennai",
+      "dropoffLocation": "Tindivanam",
+      "travelDuration": "2h 30m",
+      "seatsAvailable": 40,
+      "action": "View Seats",
+      "id": "b146"
+    },
+    {
+      "busId": 31,
+      "pickupLocation": "Trichy",
+      "dropoffLocation": "Ariyalur",
+      "travelDuration": "1h 45m",
+      "seatsAvailable": 40,
+      "action": "View Seats",
+      "id": "7537"
+    },
+    {
+      "busId": 32,
+      "pickupLocation": "Madurai",
+      "dropoffLocation": "Nagercoil",
+      "travelDuration": "3h 45m",
+      "seatsAvailable": 40,
+      "action": "View Seats",
+      "id": "8f27"
+    },
+    {
+      "busId": 1,
+      "pickupLocation": "Coimbatore",
+      "dropoffLocation": "Chennai",
+      "travelDuration": "8h 0m",
+      "seatsAvailable": 40,
+      "action": "View Seats",
+      "id": "4d9c"
+    },
+    {
+      "busId": 2,
+      "pickupLocation": "Madurai",
+      "dropoffLocation": "Chennai",
+      "travelDuration": "7h 30m",
+      "seatsAvailable": 40,
+      "action": "View Seats",
+      "id": "f9fd"
+    },
+    {
+      "busId": 3,
+      "pickupLocation": "Trichy",
+      "dropoffLocation": "Chidambaram",
+      "travelDuration": "5h 30m",
+      "seatsAvailable": 40,
+      "action": "View Seats",
+      "id": "ae8f"
+    },
+    {
+      "busId": 4,
+      "pickupLocation": "Erode",
+      "dropoffLocation": "Chidambaram",
+      "travelDuration": "2h 30m",
+      "seatsAvailable": 40,
+      "action": "View Seats",
+      "id": "b2da"
+    },
+    {
+      "busId": 5,
+      "pickupLocation": "Madurai",
+      "dropoffLocation": "Dindigul",
+      "travelDuration": "3h 30m",
+      "seatsAvailable": 40,
+      "action": "View Seats",
+      "id": "5ec3"
+    },
+    {
+      "busId": 6,
+      "pickupLocation": "Trichy",
+      "dropoffLocation": "Salem",
+      "travelDuration": "1h 30m",
+      "seatsAvailable": 40,
+      "action": "View Seats",
+      "id": "6509"
+    },
+    {
+      "busId": 7,
+      "pickupLocation": "Salem",
+      "dropoffLocation": "Nagercoil",
+      "travelDuration": "1h 0m",
+      "seatsAvailable": 40,
+      "action": "View Seats",
+      "id": "79f8"
+    },
+    {
+      "busId": 8,
+      "pickupLocation": "Chennai",
+      "dropoffLocation": "Vellore",
+      "travelDuration": "2h 30m",
+      "seatsAvailable": 40,
+      "action": "View Seats",
+      "id": "8456"
+    },
+    {
+      "busId": 9,
+      "pickupLocation": "Madurai",
+      "dropoffLocation": "Chennai",
+      "travelDuration": "3h 30m",
+      "seatsAvailable": 40,
+      "action": "View Seats",
+      "id": "5f11"
+    },
+    {
+      "busId": 10,
+      "pickupLocation": "Coimbatore",
+      "dropoffLocation": "Pollachi",
+      "travelDuration": "1h 0m",
+      "seatsAvailable": 40,
+      "action": "View Seats",
+      "id": "6bbd"
+    },
+    {
+      "busId": 11,
+      "pickupLocation": "Chennai",
+      "dropoffLocation": "Pondicherry",
+      "travelDuration": "3h 0m",
+      "seatsAvailable": 40,
+      "action": "View Seats",
+      "id": "2a9e"
+    },
+    {
+      "busId": 12,
+      "pickupLocation": "Trichy",
+      "dropoffLocation": "Karur",
+      "travelDuration": "2h 0m",
+      "seatsAvailable": 40,
+      "action": "View Seats",
+      "id": "f621"
+    },
+    {
+      "busId": 13,
+      "pickupLocation": "Madurai",
+      "dropoffLocation": "Dindigul",
+      "travelDuration": "1h 45m",
+      "seatsAvailable": 40,
+      "action": "View Seats",
+      "id": "ec63"
+    },
+    {
+      "busId": 14,
+      "pickupLocation": "Coimbatore",
+      "dropoffLocation": "Ooty",
+      "travelDuration": "3h 30m",
+      "seatsAvailable": 40,
+      "action": "View Seats",
+      "id": "b8ca"
+    },
+    {
+      "busId": 15,
+      "pickupLocation": "Chennai",
+      "dropoffLocation": "Kanchipuram",
+      "travelDuration": "2h 0m",
+      "seatsAvailable": 40,
+      "action": "View Seats",
+      "id": "a507"
+    },
+    {
+      "busId": 16,
+      "pickupLocation": "Madurai",
+      "dropoffLocation": "Kodaikanal",
+      "travelDuration": "4h 0m",
+      "seatsAvailable": 40,
+      "action": "View Seats",
+      "id": "6cea"
+    },
+    {
+      "busId": 17,
+      "pickupLocation": "Tirunelveli",
+      "dropoffLocation": "Kanyakumari",
+      "travelDuration": "1h 30m",
+      "seatsAvailable": 40,
+      "action": "View Seats",
+      "id": "a662"
+    },
+    {
+      "busId": 18,
+      "pickupLocation": "Salem",
+      "dropoffLocation": "Hosur",
+      "travelDuration": "2h 45m",
+      "seatsAvailable": 40,
+      "action": "View Seats",
+      "id": "04ad"
+    },
+    {
+      "busId": 19,
+      "pickupLocation": "Chennai",
+      "dropoffLocation": "Tiruvannamalai",
+      "travelDuration": "3h 45m",
+      "seatsAvailable": 40,
+      "action": "View Seats",
+      "id": "9d97"
+    },
+    {
+      "busId": 20,
+      "pickupLocation": "Trichy",
+      "dropoffLocation": "Nagapattinam",
+      "travelDuration": "3h 15m",
+      "seatsAvailable": 40,
+      "action": "View Seats",
+      "id": "8705"
+    },
+    {
+      "busId": 21,
+      "pickupLocation": "Chennai",
+      "dropoffLocation": "Cuddalore",
+      "travelDuration": "3h 30m",
+      "seatsAvailable": 40,
+      "action": "View Seats",
+      "id": "50b3"
+    },
+    {
+      "busId": 22,
+      "pickupLocation": "Coimbatore",
+      "dropoffLocation": "Tiruppur",
+      "travelDuration": "1h 30m",
+      "seatsAvailable": 40,
+      "action": "View Seats",
+      "id": "ce5e"
+    },
+    {
+      "busId": 23,
+      "pickupLocation": "Chennai",
+      "dropoffLocation": "Chidambaram",
+      "travelDuration": "4h 0m",
+      "seatsAvailable": 40,
+      "action": "View Seats",
+      "id": "0bac"
+    },
+    {
+      "busId": 24,
+      "pickupLocation": "Madurai",
+      "dropoffLocation": "Sivakasi",
+      "travelDuration": "2h 0m",
+      "seatsAvailable": 40,
+      "action": "View Seats",
+      "id": "9114"
+    },
+    {
+      "busId": 25,
+      "pickupLocation": "Trichy",
+      "dropoffLocation": "Pudukottai",
+      "travelDuration": "1h 30m",
+      "seatsAvailable": 40,
+      "action": "View Seats",
+      "id": "963b"
+    },
+    {
+      "busId": 26,
+      "pickupLocation": "Salem",
+      "dropoffLocation": "Namakkal",
+      "travelDuration": "1h 15m",
+      "seatsAvailable": 40,
+      "action": "View Seats",
+      "id": "cc14"
+    },
+    {
+      "busId": 27,
+      "pickupLocation": "Chennai",
+      "dropoffLocation": "Tirupati",
+      "travelDuration": "3h 0m",
+      "seatsAvailable": 40,
+      "action": "View Seats",
+      "id": "65f5"
+    },
+    {
+      "busId": 28,
+      "pickupLocation": "Madurai",
+      "dropoffLocation": "Theni",
+      "travelDuration": "1h 30m",
+      "seatsAvailable": 40,
+      "action": "View Seats",
+      "id": "e122"
+    },
+    {
+      "busId": 29,
+      "pickupLocation": "Coimbatore",
+      "dropoffLocation": "Mettupalayam",
+      "travelDuration": "1h 0m",
+      "seatsAvailable": 40,
+      "action": "View Seats",
+      "id": "8a22"
+    },
+    {
+      "busId": 30,
+      "pickupLocation": "Chennai",
+      "dropoffLocation": "Tindivanam",
+      "travelDuration": "2h 30m",
+      "seatsAvailable": 40,
+      "action": "View Seats",
+      "id": "6332"
+    },
+    {
+      "busId": 31,
+      "pickupLocation": "Trichy",
+      "dropoffLocation": "Ariyalur",
+      "travelDuration": "1h 45m",
+      "seatsAvailable": 40,
+      "action": "View Seats",
+      "id": "82e6"
+    },
+    {
+      "busId": 32,
+      "pickupLocation": "Madurai",
+      "dropoffLocation": "Nagercoil",
+      "travelDuration": "3h 45m",
+      "seatsAvailable": 40,
+      "action": "View Seats",
+      "id": "022f"
+    }
+  ],
+  "bookings": [
+    {
+      "id": "ba2c",
+      "nameOnCard": "qwerty",
+      "totalPrice": 20,
+      "seats": [
+        36,
+        37
+      ],
+      "paymentMethod": "Credit Card",
+      "paymentStatus": "Successful"
+    },
+    {
+      "id": "5920",
+      "nameOnCard": "qwerty",
+      "totalPrice": 20,
+      "seats": [
+        37,
+        38
+      ],
+      "paymentMethod": "Credit Card",
+      "paymentStatus": "Successful"
+    },
+    {
+      "id": "e157",
+      "nameOnCard": "qwerty",
+      "totalPrice": 20,
+      "seats": [
+        36,
+        37
+      ],
+      "paymentMethod": "Credit Card",
+      "paymentStatus": "Successful"
+    },
+    {
+      "id": "0bb2",
+      "nameOnCard": "srimathi",
+      "totalPrice": 20,
+      "seats": [
+        1,
+        6
+      ],
+      "paymentMethod": "Credit Card",
+      "paymentStatus": "Successful"
+    }
+  ]
+}
